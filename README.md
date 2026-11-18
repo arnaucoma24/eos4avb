@@ -2,7 +2,8 @@
 
 ImageMol turns a rendered picture of a molecule into 512 features, learning from pixels rather than from a molecular graph. A ResNet18 encoder was pretrained by Zeng and colleagues on ten million unlabelled drug-like PubChem molecules through five self-supervised pretext tasks covering local substructures, global shape and image rationality, and the resulting representation transferred across 51 benchmark datasets spanning metabolism, brain penetration, toxicity and target binding. Individual dimensions are not chemically interpretable and are meant to feed downstream models.
 
-This model was incorporated on 2023-01-25.Last packaged on 2026-08-31.
+This model was incorporated on 2023-01-25.
+Last packaged on 2026-08-31.
 
 ## Information
 ### Identifiers
@@ -46,6 +47,7 @@ _10 of 512 columns are shown_
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos4avb](https://hub.docker.com/r/ersiliaos/eos4avb)
 - **Docker Architecture:** `AMD64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4avb.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos4avb.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos4avb_v2.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos4avb_v2.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `66`
